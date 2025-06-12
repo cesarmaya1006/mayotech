@@ -27,6 +27,6 @@ class UsuariosSeeder extends Seeder
             'email' => 'cesarmaya1006@gmail.com',
             'password' => bcrypt('123456789'),
             'foto' => 'cesar_maya.png',
-        ])->syncRoles('Super Administrador');
+        ])->syncRoles(['Super Administrador','Administrador']);
     }
 }

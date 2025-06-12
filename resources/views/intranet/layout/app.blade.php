@@ -36,16 +36,23 @@
                 <div class="container-fluid">
                     <!--begin::Row-->
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="12 col-md-6">
                             <h3 class="mb-0">
                                 @yield('tituloPagina')
                             </h3>
                         </div>
-                        <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-end">
+                        <div class="12 col-md-6">
+                            <ol class="breadcrumb float-md-end">
                                 <li class="breadcrumb-item"><a href="#">Inicio</a></li>
                                 @yield('breadcrumb')
                             </ol>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-grid gap-2 d-md-block float-md-end">
+                                @yield('botonesCard')
+                            </div>
                         </div>
                     </div>
                     <!--end::Row-->
@@ -57,6 +64,12 @@
             <div class="app-content">
                 <!--begin::Container-->
                 <div class="container-fluid">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12 col-md-8">
+                            @include('includes.error-form')
+                            @include('includes.mensaje')
+                        </div>
+                    </div>
                     <!--begin::Row-->
                     @yield('cuerpoPagina')
                     <!--end::Row-->

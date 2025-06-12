@@ -54,10 +54,10 @@
 </script>
 <script>
     $(document).ready(function() {
-        $(".tabla_data_table_inicial").DataTable({
+        $(".tabla_data_table").DataTable({
             scrollX: true
             , lengthMenu: [5, 10, 15, 25, 50, 75, 100]
-            , pageLength: 5
+            , pageLength: 10
             , dom: "lBfrtip"
             , buttons: [
                 "excel"
