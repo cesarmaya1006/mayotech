@@ -47,7 +47,6 @@
 <link rel="stylesheet" href="{{ asset('adminlte/plugins/overlayScrollbars/css/OverlayScrollbars.min.css') }}">
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@4.0.0-beta3/dist/css/adminlte.min.css" crossorigin="anonymous" />
 
 <link rel="stylesheet" href="{{ asset('intrared/css/general/general.css') }}">
 
